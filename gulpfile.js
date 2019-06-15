@@ -84,9 +84,6 @@ function css() {
       browsers: ['last 2 versions'],
       cascade: false
     }))
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
     .pipe(gulp.dest("./css"))
     .pipe(rename({
       suffix: ".min"
@@ -104,9 +101,6 @@ function js() {
       '!./js/*.min.js'
     ])
     .pipe(uglify())
-    .pipe(header(banner, {
-      pkg: pkg
-    }))
     .pipe(rename({
       suffix: '.min'
     }))
