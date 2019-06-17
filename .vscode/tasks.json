@@ -10,9 +10,23 @@
         },
         {
             "type": "gulp",
+            "task": "js",
+            "problemMatcher": [
+                "$gulp-tsc"
+            ]
+        },
+        {
+            "type": "gulp",
             "task": "build",
             "problemMatcher": [
                 "$gulp-tsc"
+            ]
+        },
+        {
+            "type": "gulp",
+            "task": "watch",
+            "problemMatcher": [
+                "$node-sass"
             ]
         }
     ]
