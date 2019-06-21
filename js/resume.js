@@ -25,11 +25,17 @@
     target: '#sideNav'
   });
 
-  
+
   //creates tooltips for use throughout the website. RIght now implemented on the programming languages section
   $(document).ready(function () {
     $('[data-toggle="tooltip"]').tooltip();
   });
+
+
+  $(document).ready(function () { 
+    $('body').find('img[alt$="www.000webhost.com"]').remove();
+   });
+
 
 })(jQuery); // End of use strict
 
