@@ -173,9 +173,7 @@ section.resume-section .resume-item .resume-date {
 }
 
 .bg-primary {
-  background: #020024;
-  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#00d4ff));
-  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+  background-color: #007bff !important;
 }
 
 .text-primary {

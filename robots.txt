@@ -1,0 +1,4 @@
+Sitemap: https://aviparshan.com/sitemap.xml
+User-agent:*
+Disallow: /unitmeasure/404.html
+Noindex: /unitmeasure/404.html
