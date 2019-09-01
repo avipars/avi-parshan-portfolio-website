@@ -1,0 +1,11 @@
+section.faq {
+  a {
+    color: $gray-base;
+    @include transition-all;
+    &:hover,
+    &:focus {
+      color: darken($theme-primary, 10%);
+      text-decoration: none;
+    }
+  }
+}

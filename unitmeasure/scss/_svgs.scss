@@ -1,0 +1,41 @@
+section.conversions {
+  svg {
+    //Formats the svg icons for each conversion
+    float: top;
+    display: block;
+    margin: auto;
+    padding-bottom: 10;
+    fill: url(#g1);
+    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
+    stroke-width: 2;
+  }
+  svg:hover {
+    -webkit-transform: rotate(720deg);
+    -moz-transform: rotate(720deg);
+    -o-transform: rotate(720deg);
+    -ms-transform: rotate(720deg);
+    transform: rotate(720deg);
+    cursor: pointer;
+
+    -webkit-transition: all 0.8s ease;
+    -moz-transition: all 0.8s ease;
+    -ms-transition: all 0.8s ease;
+    -o-transition: all 0.8s ease;
+    transition: all ease 0.8s;
+  }
+
+  .color1 {
+    stop-color: $theme-secondary;
+  }
+  .color2 {
+    stop-color: $theme-tertiary;
+  }
+
+  p {
+    text-align: center;
+  }
+  .feature-partner {
+    margin: 25px auto 0;
+  }
+}
