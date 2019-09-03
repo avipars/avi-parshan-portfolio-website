@@ -67,6 +67,10 @@ p.lead {
 
 .social-icons a:hover {
   background-color: #007bff;
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .dev-icons {

@@ -32,18 +32,18 @@
       }
       .img-profile:hover {
         background-color: $gray-900;
+        // -webkit-transform: rotateX(-180deg);
+        // transform: rotateX(-180deg);
       }
     }
     .navbar-collapse {
       display: flex;
       align-items: flex-start;
       flex-grow: 0;
-
       width: 100%;
       margin-bottom: auto;
       .navbar-nav {
         flex-direction: column;
-
         width: 100%;
         .nav-item {
           display: block;
