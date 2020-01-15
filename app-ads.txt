@@ -1,0 +1,81 @@
+startapp.com, 106559881, DIRECT
+pubmatic.com, 157559, RESELLER, 5d62403b186f2ace
+admanmedia.com, 13, RESELLER
+yahoo.com, 1510636, RESELLER
+motionspots.com, a9M6CaTvK59AJxF6R, RESELLER, f0220652b4aaebdc
+aol.com, 50987, RESELLER
+pubmatic.com, 157113, RESELLER, 5d62403b186f2ace
+gothamads.com, 419, DIRECT
+gothamads.com, 425, DIRECT
+OmniJay.com, 114, RESELLER
+lkqd.net, 408, RESELLER, 59c49fa9598a0117
+springserve.com, 672, DIRECT, a24eb641fc82e93d
+Advertising.com, 22021, RESELLER
+advertising.com, 26908, RESELLER
+advertising.com, 26282, RESELLER
+Advertising.com, 27869, RESELLER
+contextweb.com, 561198, RESELLER, 89ff185a4c4e857c
+contextweb.com, 561910, RESELLER, 89ff185a4c4e857c
+contextweb.com, 561923, RESELLER, 89ff185a4c4e857c
+beachfront.com, 5472, RESELLER, e2541279e8e2ca4d
+spotxchange.com, 239904, RESELLER, 7842df1d2fe2db34
+spotx.tv, 239904, RESELLER, 7842df1d2fe2db34
+advertising.com, 28210, RESELLER
+https://gothamads.com/, 419, DIRECT, d9c86e5dec870222
+https://gothamads.com/, 422, DIRECT, d9c86e5dec870222
+somoaudience.com, 204d28f999097ba0aef43f39582cbf27, DIRECT
+mobileadtrading.com, 204d28f999097ba0aef43f39582cbf27, RESELLER
+contextweb.com, 562106, RESELLER,  89ff185a4c4e857c 
+Contextweb.com, 558766, RESELLER,  89ff185a4c4e857c 
+synacor.com, 82127, DIRECT,  e108f11b2cdf7d5b 
+advertising.com, 19623, RESELLER,  #AOL - One 
+coxmt.com, 2000067995202, RESELLER,  #AOL - One 
+indexexchange.com, 183965, RESELLER,  50b1c356f2c5c8fc   #AOL - One
+pubmatic.com, 156084, RESELLER,  5d62403b186f2ace   #AOL - One
+pubmatic.com, 156325, RESELLER,  5d62403b186f2ace   #AOL - One
+pubmatic.com, 156458, RESELLER,  5d62403b186f2ace   #AOL - One
+rubiconproject.com, 18222, RESELLER,  0bfd66d529a55807   #AOL - One
+appnexus.com, 9316, RESELLER,  f5ab79cb980f11d1   #AppNexus
+districtm.io, 101769, RESELLER,  3fd707be9c4527c3   #DistrictM
+pubmatic.com, 156344, RESELLER,  5d62403b186f2ace   #Pubmatic
+appnexus.com, 1908, RESELLER,  f5ab79cb980f11d1   #RhythmOne
+appnexus.com, 7944, RESELLER,  f5ab79cb980f11d1   #RhythmOne
+districtm.io, 100885, RESELLER,  #RhythmOne 
+google.com,  pub-5278973888786334, RESELLER,  f08c47fec0942fa0  # RhythmOne
+google.com,  pub-7620071422727774, RESELLER,  f08c47fec0942fa0  # RhythmOne
+google.com,  pub-9148265802523938, RESELLER,  f08c47fec0942fa0  # RhythmOne
+rhythmone.com, 2497923403, RESELLER,  a670c89d4a324e47  # RhythmOne
+rubiconproject.com, 13344, RESELLER,  0bfd66d529a55807  # Rubicon
+aralego.com,  par-488A3E6BD8D997D0ED8B3BD34D8BA4B, RESELLER,  #ucFunnel 
+ucfunnel.com,  par-488A3E6BD8D997D0ED8B3BD34D8BA4B, RESELLER,  #ucFunnel 
+lemmatechnologies.com, 147, DIRECT,  7829010c5bebd1fb  #LEMMA
+rubiconproject.com, 20208, RESELLER,  0bfd66d529a5580  #LEMMA
+telaria.com,  r3222-wec7r, RESELLER,  1a4e959a1b50034a  #LEMMA
+tremorhub.com,  r3222-wec7r, RESELLER,  1a4e959a1b50034a  #LEMMA
+pubmatic.com, 158189, RESELLER,  5d62403b186f2ace  #LEMMA
+aol.com, 54522, RESELLER, #LEMMA 
+EMXDGT.com, 1297, RESELLER,  1e1d41537f7cad7f 
+appnexus.com, 1356, RESELLER,  f5ab79cb980f11d1 
+onepath.ai,  82a92eac7f72784299f136483f5878b5, DIRECT
+onepath.ai,  82a92eac7f72784299f136483f5878b5, RESELLER
+admixer.net,  3e98c2db-c14c-4030-af35-bbb25b06d156, RESELLER
+waardex.com, 79681, RESELLER
+engagebdr.com, 16, RESELLER, # banner  # video
+engagebdr.com, 84, RESELLER, # banner  # video
+engagebdr.com, 10157, RESELLER, # banner  # video
+engagebdr.com,  7, RESELLER
+engagebdr.com,  6, RESELLER, # banner  # video
+imonomy.com, 2189, RESELLER
+mars.media, 102825, DIRECT
+criteo.com, 180031, DIRECT
+criteo.com, 181330, DIRECT
+criteo.com, 180034, DIRECT
+criteo.com, 181323, DIRECT
+criteo.com, 180048, DIRECT
+reforge.in, 126, RESELLER
+haxmediapartners.com, 1148, RESELLER
+haxmediapartners.com, 1150, RESELLER
+haxmediapartners.com, 1149, RESELLER
+adservme.com, 231295423, RESELLER
+decibelnetwork.com, 18, RESELLER
+mobupps.com, 75415, RESELLER
