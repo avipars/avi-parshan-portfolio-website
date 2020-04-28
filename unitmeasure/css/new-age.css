@@ -280,10 +280,111 @@ section.features .feature-item i {
   -webkit-text-fill-color: transparent;
 }
 
+section.features .feature-item i:hover {
+  -webkit-animation: bounce4, move 1s, rotateY 1s;
+  animation: bounce4, move 1s, rotateY 1s;
+  -webkit-animation-timing-function: ease;
+  animation-timing-function: ease;
+  -webkit-transition: all 1s ease;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+  }
+}
+
+@keyframes move {
+  from {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(1000px);
+    transform: translateX(1000px);
+  }
+}
+
+@-webkit-keyframes rotateY {
+  from {
+    -webkit-transform: rotateY(0rad);
+    transform: rotateY(0rad);
+  }
+  to {
+    -webkit-transform: rotateY(3.142rad);
+    transform: rotateY(3.142rad);
+  }
+}
+
+@keyframes rotateY {
+  from {
+    -webkit-transform: rotateY(0rad);
+    transform: rotateY(0rad);
+  }
+  to {
+    -webkit-transform: rotateY(3.142rad);
+    transform: rotateY(3.142rad);
+  }
+}
+
+@-webkit-keyframes bounce-4 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-100px);
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
+@keyframes bounce-4 {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(1.1, 0.9) translateY(0);
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(0.9, 1.1) translateY(-100px);
+    transform: scale(0.9, 1.1) translateY(-100px);
+  }
+  50% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+    transform: scale(1, 1) translateY(0);
+  }
+}
+
 section.cta {
+  background-attachment: fixed;
   position: relative;
   padding: 250px 0;
-  background-image: url("../img/3.jpg");
+  background-image: url("../img/7.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -342,6 +443,13 @@ section.contact ul.list-social li a {
   color: white;
   border-radius: 100%;
   text-decoration: none;
+}
+
+section.contact ul.list-social li a:hover {
+  -webkit-transition: all .2s;
+  transition: all .2s;
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 section.contact ul.list-social li.social-twitter a {
@@ -407,6 +515,14 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
   background: linear-gradient(yellowgreen, #8bb92d);
 }
 
+.bg-video {
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #0da34c;
+  background: -webkit-gradient(linear, right top, left top, from(#0da34c), to(#1e62a1));
+  background: linear-gradient(to left, #0da34c, #1e62a1);
+}
+
 .bg-faq {
   background: #0da34c;
   background: -webkit-gradient(linear, left top, left bottom, from(#0da34c), to(#0b8b41));
@@ -452,6 +568,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 section.conversions svg {
+  width: 70px;
+  height: 70px;
   float: top;
   display: block;
   margin: auto;
@@ -466,9 +584,14 @@ section.conversions svg:hover {
   -webkit-transform: rotate(720deg);
   transform: rotate(720deg);
   cursor: pointer;
-  -webkit-transition: all 0.8s ease;
-  -webkit-transition: all ease 0.8s;
-  transition: all ease 0.8s;
+  -webkit-transition: all 1s ease;
+  -webkit-transition: all ease 1s;
+  transition: all ease 1s;
+}
+
+section.conversions .path {
+  width: 70px;
+  height: 70px;
 }
 
 section.conversions .color1 {
@@ -496,4 +619,35 @@ section.faq a {
 section.faq a:hover, section.faq a:focus {
   color: #7ba428;
   text-decoration: none;
+}
+
+section.faq .toggle-btn {
+  display: block;
+  text-align: center;
+  font-size: 2.9em;
+  letter-spacing: 2px;
+  line-height: 60px;
+  height: 60px;
+  text-transform: uppercase;
+  color: yellowgreen;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+section.faq .toggle-btn:hover {
+  background-color: yellowgreen;
+  color: white;
+}
+
+section.faq .section {
+  overflow: hidden;
+}
+
+section.faq .line {
+  position: relative;
+  border-top: 1px solid #d7d7d7;
+}
+
+section.faq .panel-heading {
+  cursor: pointer;
 }

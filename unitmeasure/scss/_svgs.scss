@@ -1,6 +1,9 @@
 section.conversions {
+
   svg {
     //Formats the svg icons for each conversion
+    width:70px;
+    height:70px;
     float: top;
     display: block;
     margin: auto;
@@ -11,6 +14,7 @@ section.conversions {
     stroke-width: 2;
   }
   svg:hover {
+    // transform: translate(0, 200px);
     -webkit-transform: rotate(720deg);
     -moz-transform: rotate(720deg);
     -o-transform: rotate(720deg);
@@ -18,13 +22,17 @@ section.conversions {
     transform: rotate(720deg);
     cursor: pointer;
 
-    -webkit-transition: all 0.8s ease;
-    -moz-transition: all 0.8s ease;
-    -ms-transition: all 0.8s ease;
-    -o-transition: all 0.8s ease;
-    transition: all ease 0.8s;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    transition: all ease 1s;
   }
 
+  .path {
+    width:70px;
+    height:70px;
+  }
   .color1 {
     stop-color: $theme-secondary;
   }

@@ -2,31 +2,39 @@
 section.features {
     .section-heading {
         margin-bottom: 100px;
+
         h2 {
             margin-top: 0;
         }
+
         p {
             margin-bottom: 0;
         }
     }
+
     .device-container,
     .feature-item {
         max-width: 325px;
         margin: 0 auto;
     }
+
     .device-container {
         margin-bottom: 100px;
+
         @media(min-width: 992px) {
             margin-bottom: 0;
         }
     }
+
     .feature-item {
         padding-top: 50px;
         padding-bottom: 50px;
         text-align: center;
+
         h3 {
             font-size: 30px;
         }
+
         i {
             font-size: 80px;
             display: block;
@@ -35,6 +43,43 @@ section.features {
             background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+
+            &:hover {
+                animation:  bounce4, move 1s, rotateY 1s;
+                animation-timing-function: ease;
+                @keyframes move {
+                    from {
+                        transform: translateX(0);
+                    }
+
+                    to {
+                        transform: translateX(1000px);
+                    }
+                }
+
+                @keyframes rotateY {
+                    from {
+                        transform: rotateY(0rad);
+                    }
+                    to {
+                        transform: rotateY(3.142rad);
+                    }
+                }
+
+                @keyframes bounce-4 {
+                    0%   { transform: scale(1,1)    translateY(0); }
+                    10%  { transform: scale(1.1,.9) translateY(0); }
+                    30%  { transform: scale(.9,1.1) translateY(-100px); }
+                    50%  { transform: scale(1,1)    translateY(0); }
+                    100% { transform: scale(1,1)    translateY(0); }
+                }
+            
+                -webkit-transition: all 1s ease;
+                -moz-transition: all 1s ease;
+                -ms-transition: all 1s ease;
+                -o-transition: all 1s ease;
+                transition: all ease 1s;
+            }
         }
     }
 }

@@ -1,10 +1,10 @@
 // Styling for the call to action section
 section.cta {
   //random out of 6 for cta image
-  $list: 0, 1, 2, 3, 4, 5, 6;
+  $list: 0, 1, 2, 3, 4, 5, 6, 7;
   $imgKey: random(length($list));
   $nth: nth($list, $imgKey);
-
+  background-attachment: fixed;
   position: relative;
   padding: 250px 0;
   background-image: url("../img/#{$nth}.jpg");

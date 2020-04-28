@@ -21,6 +21,10 @@ section.contact {
                 border-radius: 100%;
                 text-decoration: none; 
                 // keeps icons without underline
+                &:hover{
+                    transition: all .2s;
+                    transform: scale(1.1);
+                }
             }
             &.social-twitter {
                 a {

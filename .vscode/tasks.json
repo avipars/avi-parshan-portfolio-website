@@ -20,7 +20,12 @@
             "task": "build",
             "problemMatcher": [
                 "$gulp-tsc"
-            ]
+            ],
+            "label": "gulp: build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "type": "gulp",
