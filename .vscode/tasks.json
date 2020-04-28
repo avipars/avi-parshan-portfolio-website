@@ -35,6 +35,12 @@
                 "kind": "build",
                 "isDefault": true
             }
+        },
+        {
+            "type": "gulp",
+            "task": "mini",
+            "problemMatcher": [],
+            "label": "gulp: mini"
         }
     ]
 }

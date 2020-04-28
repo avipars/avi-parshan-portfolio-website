@@ -12,6 +12,7 @@ const plumber = require("gulp-plumber");
 const rename = require("gulp-rename");
 const sass = require("gulp-sass");
 const uglify = require("gulp-uglify");
+const htmlmin = require('gulp-htmlmin');
 
 // Load package.json for banner
 const pkg = require('./package.json');
@@ -84,6 +85,15 @@ function css() {
     .pipe(browsersync.stream());
 }
 
+// work on html file in dist, and have gulp send the minified file to index
+function minifyHTML()
+{
+    return gulp.src('./originalFolderNoFTP/*.html')
+      .pipe(htmlmin({ collapseWhitespace: true , removeComments	: true}))
+      //submit to main directory
+      .pipe(gulp.dest('.'));
+  
+}
 // JS task
 function js() {
   return gulp
@@ -108,6 +118,7 @@ function watchFiles() {
 
 // Define complex tasks
 const vendor = gulp.series(clean, modules);
+const mini = gulp.series(minifyHTML , vendor);
 const build = gulp.series(vendor, gulp.parallel(css, js));
 const watch = gulp.series(build, gulp.parallel(watchFiles, browserSync));
 
@@ -116,6 +127,7 @@ exports.css = css;
 exports.js = js;
 exports.clean = clean;
 exports.vendor = vendor;
+exports.mini = mini; 
 exports.build = build;
 exports.watch = watch;
 exports.default = build;
