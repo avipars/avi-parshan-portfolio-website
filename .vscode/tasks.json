@@ -22,17 +22,19 @@
                 "$gulp-tsc"
             ],
             "label": "gulp: build",
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            }
+            "group": "build"
         },
         {
             "type": "gulp",
             "task": "watch",
             "problemMatcher": [
                 "$node-sass"
-            ]
+            ],
+            "label": "gulp: watch",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
